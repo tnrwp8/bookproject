@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+span.main{
+    margin: 80px;
+}
+
+/*검색 창*/
+td.input{
+font-size: 16px;
+width: 325px;
+padding: 10px;
+border: 1px;
+outline: none;
+position: absolute;
+top: 0.2%;
+left: 40%;
+
+}
+/*버튼*/
+td.button{
+   width: 50px;
+   height: 100%;
+   border: 0px;
+   background: #1b5ac2;
+   outline: none;
+   float: right;
+   color: #ffffff;
+   
+}
+
+tr.headline01 {   
+   
+   height: 50px;
+   background-color: #621b00;
+}
+
+tr.headline02 {
+   height: 50px;   
+}
+
+td.menu01 {
+   padding: 5px;
+   font-size: 15px;
+   color: #F6EEC9;
+   font-family: Arial;
+   text-align: center;
+}
